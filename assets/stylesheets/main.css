@@ -129,7 +129,24 @@ h5 {
   font-size: 14px;
   font-weight:400;
 }
+strong {
+  font-weight:400;
+}
+cite, em {
+  font-style:italic;
+}
+/*
+ =========================================
+ Links
+ =========================================
+ */
 
+ a:hover {
+  color: #a9b2b9;
+ }
+ a {
+  color: #648880;
+ }
 /*
   ========================================
   Buttons
@@ -154,6 +171,13 @@ h5 {
 
 .hero {
   padding: 22px 80px 66px 80px;
+  line-height: 44px;
+}
+.hero h2 {
+  font-size: 36px;
+}
+.hero p {
+  font-size: 24px;
 }
 /*
   ========================================
@@ -165,6 +189,15 @@ h5 {
   border-top: 4px solid #648880;
   padding: 40px 0 22px 0;
   float:left;
+  line-height: 44px;
+  font-size: 48px;
+}
+.tagline {
+  margin: 66px 0 22px 0;
+}
+.primary-nav {
+  font-size: 14px;
+  font-weight: 400;
 }
 /*
   ========================================
@@ -174,8 +207,11 @@ h5 {
 
 .primary-footer small {
   float: left;
+  font-weight: 400
 }
 .primary-footer {
+  color: #648880;
+  font-size: 14px
   padding-bottom: 44px;
   padding-top: 44px;
 }
