@@ -345,3 +345,9 @@ p a {
   padding: 22px 0;
   text-align: center;
 }
+.teaser img {
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 22px;
+  max-width: 100%
+}
